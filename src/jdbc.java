@@ -70,7 +70,7 @@ public class jdbc {
     }
 
     public ResultSet excuteQue(String sql){    //执行查询，返回结果集，失败返回null
-        if(con()!=0){                          //一定在主程序中调用close函数，这里调用会导致resultset被关闭
+        if(con()!=0){                          //一定在主程序中调用close函数，这里调用会导致resultset被关闭1
             return null;
         }
         ResultSet rs=null;
