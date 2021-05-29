@@ -26,7 +26,7 @@ public class jdbc {
         }
     }
 
-    public int con(){       //加载驱动，获取连接 0成功，1失败1
+    public int con(){       //加载驱动，获取连接 0成功，1失败
         if(databasetype.equals("mySQL")){
             try{
                 Class.forName("com.mysql.jdbc.Driver");
